@@ -1,0 +1,34 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input , button{
+
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button{
+    background-color: #4caf50;
+    color: white;
+    cursor:pointer;
+}
+#wordList{
+    margin-top: 30px;
+}
+.word-card{
+    background:white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 5px solid #4caf50;
+    box-shadow: 0 1px 3px rgba(0,0,0, 0.1)
+}
